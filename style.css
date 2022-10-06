@@ -1,0 +1,97 @@
+body
+{
+    background-color: dodgerblue;
+}
+h1 
+{
+    color:aliceblue
+}
+h2
+{
+    color:whitesmoke
+}
+
+.ROW
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.COLUMN
+{
+  flex: 50%;
+  padding:0 4px;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 40px;
+  
+}
+.COLUMN img
+{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+img
+{
+    height: 165px;
+    max-width: 165px;
+}
+footer 
+{
+    text-align: center;
+    color:whitesmoke;
+}
+header
+{
+    text-align: center;
+    color:black
+}
+form
+{
+    text-align: center;
+    background-color: white;
+    font-size: 14px;
+    border-width: 22px;
+    border-style: double;
+    border-color: black;
+    border-radius: 150;
+    
+}
+.GREEN
+{
+    
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    flex: 50%;
+    padding: 0 4px;
+}
+.GREEN img
+{
+    height: 700px;
+    max-width: 750px;
+}
+
+.BLUE
+{
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    flex: 50%;
+    padding: 0 4px;
+}
+.BLUE img
+{
+    height: 500px;
+    max-width: 550px;
+}
+
+.podatci
+{
+    background-color: grey;
+    margin-left: 150px;
+    margin-right: 70px;
+    max-width: 800px;
+    max-height: 250px;
+}

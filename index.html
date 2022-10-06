@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <class>
+            <input id="date" type="date" /> 
+            <script>
+                var date = new Date();
+                var currentDate = date.toISOString().slice(0,10);
+                var currentTime = date.getHours() + ':' + date.getMinutes();
+
+            document.getElementById('date').value = currentDate;
+            </script>
+        </class>
+    </header>
+    
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Projekat</title>
+    </head>
+
+    <body>
+        <div>
+            <h1 style=font-size:40px align="center"><b><u>Logan Mioc</b></u></h1>
+            <h2 style=font-size:18px align="center"><i>Zivim u naselju Malta na 8. spratu, cetvrti sam razred u Trecoj gimnaziji, nadam se da ce Manchester City i Zeljeznicar uzeti ligu ove godine. Treniram kosarku</i></h2>
+        </div>
+        <div class="buttons" align="center">
+            <button><li><a href="contact.html"><b>Contact</b></a></li></button>
+            <button><li><a href="ManCity.html"><b>ManCity</b></a></li></button>
+            <button><li><a href="BBall.html"><b>BBall</b></a></li></button>
+        </div>
+        <div class="ROW">
+        <div class="COLUMN">
+        <img src="Pics/S1.jpg" alt="Corrupted">
+        <img src="Pics/S2.jpg" alt="Corrupted">
+        <img src="Pics/S3.jpg" alt="Corrupted">
+        <img src="Pics/S4.jpg" alt="Corrupted">
+        <img src="Pics/S5.jpg" alt="Corrupted">
+        <img src="Pics/S6.jpg" alt="Corrupted">
+        <img src="Pics/Sa.jpg" alt="Corrupted">
+        <img src="Pics/Sb.jpg" alt="Corrupted">
+        <img src="Pics/Sc.jpg" alt="Corrupted">
+        <img src="Pics/Sd.jpg" alt="Corrupted">
+        <img src="Pics/Se.jpg" alt="Corrupted">
+        <img src="Pics/Si.jpg" alt="Corrupted">
+        </div>
+        </div>
+        <br>
+        <form>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="FIELD1" placeholder="NAME AND SURNAME" class="F1"/>
+                <br>
+            </div>
+        
+        <div>
+            <label for="EMAIL">E-Mail</label>
+            <input type="email" name="FIELD2" placeholder="E-Mail" class="F2"/>
+            <br>
+        </div>
+        <div>
+            <label for="PASSWORD">Password</label>
+            <input type="password" name="FIELD4" placeholder="........." class="F3"/>
+            <br>
+        </div>
+        <div>
+            <textarea name="FIELD3" class="F3" placeholder="Write Your Message Here!"></textarea>
+            <br>
+        </div> 
+        <input type="submit" value="SUBMIT!"/>
+        <input type="reset" value="RESET!"/>
+        </form>
+        <br>
+        <footer>COPYRIGHT 2022</footer>
+    </body>
+</html>
